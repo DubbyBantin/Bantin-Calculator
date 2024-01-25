@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/31.CSS">
+</head>
+<body>
+    <div class="parent">
+    <input class="js-input input" id="js-input" onkeydown="calc(event)" >
+    <div class="grid">
+    <button onclick="clearDisplay()" class="operator-button">AC</button>
+    <button onclick="input.value = input.value.toString().slice(0, -1)" class="operator-button">DEL</button>
+    <button onclick="calculate('.')" class="operator-button">.</button>
+    <button onclick="calculate('/')" class="operator-button">/</button>
+    <button onclick="calculate('7')">7</button>
+    <button onclick="calculate('8')">8</button>
+    <button onclick="calculate('9')">9</button>
+    <button onclick="calculate('*')" class="operator-button">*</button>
+    <button onclick="calculate('4')">4</button>
+    <button onclick="calculate('5')">5</button>
+    <button onclick="calculate('6')">6</button>
+    <button onclick="calculate('-')" class="operator-button">-</button>
+    <button onclick="calculate('1')">1</button>
+    <button onclick="calculate('2')">2</button>
+    <button onclick="calculate('3')">3</button>
+    <button onclick="calculate('+')" class="operator-button">+</button>
+    <button onclick="calculate('0')">0</button>
+    <button onclick="calculate('00')">00</button>
+    <button onclick="calculation()" class="js-equals equals operator-button">=</button>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="/31.JS"></script>
+</body>
+</html>
